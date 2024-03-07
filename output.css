@@ -1,0 +1,83 @@
+.cabin-sketch-regular {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabin-sketch-bold {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(75, 73, 73);
+  color: white;
+  font-family: "Cabin Sketch", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.container .main-title {
+  font-size: 3rem;
+}
+.container .etch-grid {
+  display: grid;
+  border: 25px solid rgb(0, 0, 0);
+  height: 60dvh;
+  width: 37dvw;
+}
+.container .etch-grid .grid-div {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  user-select: none;
+}
+.container .this-is-for-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.choose-color {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.choose-rows {
+  margin: 1rem;
+}
+
+h1, button, input {
+  margin: 1rem;
+}
+
+button {
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-family: "Cabin Sketch", sans-serif;
+  background-color: rgb(111, 111, 116);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*# sourceMappingURL=output.css.map */

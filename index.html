@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Etch a Sketch</h1>
+        <h2 class="grid-size">Current Grid Size:</h2>
+        <div class="etch-grid">
+            
+        </div>
+        <div class="choose-rows">
+            <form action="">
+                <input type="number" max="100" placeholder="Number of rows" class="number-input">
+                <button type="submit" class="row-button">Change Grid Size</button>
+            </form>
+        </div>
+        <div class="choose-color">
+            <h1>Choose Colour:</h1>
+            <input type="color" value="#000000" class="color-picker">
+            <button class="rainbow-button">Toggle Rainbow On</button>
+            <button class="eraser-button">Toggle Eraser On</button>
+            <button class="clear">clear grid</button>
+        </div>
+        
+    </div>
+    <script src ="index.js"></script>
+</body>
+</html>
